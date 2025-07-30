@@ -99,8 +99,8 @@ function setup() {
 	video = createCapture(VIDEO);
 	video.hide();
 
-	// Camera image shown is off by default
-	let cam_mode = false;
+	// Camera image shown is on by default
+	let cam_mode = true;
 	// Song always plays
 	song.loop();
 
